@@ -1,0 +1,357 @@
+
+@font-face {
+    font-family: "GothamBlack";
+    src: url(GothamBlack.otf);
+}
+
+{
+    margin: 0;
+    padding: 0;
+}
+.fonteusuario{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 100%
+    }
+
+.fonteusuario2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 100%
+    }
+
+#dados{
+    color: #0071bc;
+    margin-left: 20%;
+}
+
+#dados2{    
+    padding-top: 8%;
+}
+
+.sublinhado_editardados{
+    width: 6em;
+    height: 2.5px;
+    background-color: #0071bc;
+    margin: -1%;
+}
+
+.editardados{
+    margin: -1%;
+
+}
+#section1{
+    padding-top: 8%;
+    background-color: #181825;
+    height: 100%; 
+    width: auto;
+}
+
+#quadrousuario{
+    border: 0.2em solid #0071bc;
+}
+
+#avatar{
+    height: 60%;
+    width: 420%;
+    border-radius: 50%;
+    border: 0.2em solid #0071bc;
+    padding: 3%;
+    margin-top: 130%;
+    margin-left: -730%;
+}
+
+#section2{ 
+    background-color: #181825;
+    height: 100%;
+    width: auto;
+    padding-bottom: 5%;
+}
+
+#titulo1{
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-family: "GothamBlack";
+}
+
+.hline1 { 
+    width:32%; 
+    height: 0.2em; 
+    background: white;
+    margin-left: 70%;
+    margin-top: -3.5%;
+}
+
+.hline2 { 
+    width:30%; 
+    height: 0.2em; 
+    background: white;
+    position: relative;
+    margin-top: -0.25%;
+    margin-bottom: 10%;
+}
+
+#quadrocronogramae{
+    text-align: right;
+    color: #e6e6e6; 
+    font-size: 90%;
+}
+
+#quadrocronogramac{
+    text-align: center;
+    color: #e6e6e6; 
+    background-color: RGBA(0,113,188,0.6);
+    margin-top: 5%;
+     font-size: 90%;
+}
+
+#quadrocronogramacfantasma{    
+display: none;
+}
+
+
+#quadrocronogramad{
+    text-align: left;
+    color: #e6e6e6; 
+   font-size: 90%;
+    margin-top: 0.5%;
+}
+
+#tituloSabado{
+    text-align: center;
+    color:#0071bc;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+#tituloDomingo{
+    text-align: center;
+    color:#0071bc;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+#section3{   
+    background-color: #181825;
+    height: 100%;
+    width: auto;
+    padding-bottom: 5%;
+
+}
+#tituloOQueLevar{
+    text-align: center;
+    color:#0071bc;
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+#oQueLevar{
+    text-align: center;
+    color: #e6e6e6; 
+}
+#comoVamos{
+    text-align: center;
+    color: #e6e6e6;
+} 
+#tituloComoVamos{
+    text-align: center;
+    color:#0071bc;
+    font-size: 2em;
+    margin-bottom: 10%;
+
+}
+
+
+
+@media screen and (max-width: 1199px) and (min-width: 992px){
+
+.hline1 { 
+        width:26%; 
+        height: 0.2em; 
+        background: white;
+        margin-left: 74%;
+        margin-top: -4%;
+    }
+    
+.hline2 { 
+        width:26%; 
+        height: 0.2em; 
+        background: white;
+        position: relative;
+        margin-top: -0.5%;
+    }
+    
+#avatar{
+    height: 25%;
+    width: 250%;
+    margin-top: 300%;
+    margin-left: -730%;
+}
+    
+
+#quadrocronogramac{
+    text-align: center;
+    margin-top: 6%;
+     font-size: 90%;
+}
+
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+
+.hline1 { 
+
+        width:26%; 
+        height: 0.2em; 
+        background: white;
+        margin-left: 80%;
+        margin-top: -6%;
+    }
+
+.hline2 { 
+        margin-left: -4%;
+        width:24%; 
+        height: 0.2em; 
+        background: white;
+        position: relative;
+    }
+    
+    
+    
+.fonteusuario{
+    font-size: 100%
+}
+
+    
+#avatar{
+    height: 25%;
+    width: 500%;
+    margin-top: 700%;
+    margin-left: -1150%;
+}
+    
+    
+#quadrocronogramac{
+    text-align: center;
+    margin-top: 7.5%;
+     font-size: 90%;
+}
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 550px){
+
+
+.hline1 { 
+display: none;
+    }
+
+.hline2 { 
+display: none;
+    }
+.sublinhado_editardados{
+    width: 0%;
+    height: 0%;  
+    }
+#avatar{
+    height: 20%;
+    width: 1500%;
+    margin-top: 3000%;
+    margin-left: -3200%;
+}
+   
+#quadrocronogramae{
+    font-size: 70%;
+}
+    
+#quadrocronogramac{
+     font-size: 70%;
+}
+
+#quadrocronogramad{
+   font-size: 70%;
+
+}
+
+
+    }
+    
+@media screen and  (max-width: 549px){
+    
+.fonteusuario{
+    font-size: 120%;
+    }
+
+.fonteusuario2{
+    margin-top: 17%;
+    font-size: 120%;
+    }
+   
+
+.hline1 { 
+display: none;
+    }
+
+.hline2 { 
+display: none;
+    }
+    
+    #avatar{
+    height: 70%;
+    width: 70%;
+    margin-top: 20%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+    
+#dados{
+    margin-left: 15%;
+}
+    
+.editardados{
+    margin-left: -250%!important;
+    margin-top: -800%; 
+    }
+    
+#tituloSabado{
+    margin-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    margin-left: 30%;
+}
+
+#quadrocronogramac{
+    font-size: 90%;
+    margin-top: 22%;
+}
+    
+#quadrocronogramacfantasma{
+    display: inline;
+    text-align: center;
+    color: #e6e6e6; 
+    background-color: RGBA(0,113,188,0.6);
+    margin-left: 0%;
+    font-size: 90%;
+    margin-top: 24%;
+}
+    
+#tituloDomingo{
+    margin-top: 13%;
+    margin-left: -18%;
+    padding-bottom: 5%;
+}
+    
+#quadrocronogramad{
+
+}
+    
+  
+    
+.sublinhado_editardados{
+    width: 0%;
+    height: 0%;  
+    }
+    
+ 
+    
+}
